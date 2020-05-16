@@ -1,4 +1,4 @@
-import pygame, sys, time, random
+""" import pygame, sys, time, random
 from pygame.locals import *
 
 #pygame.init()
@@ -123,3 +123,4 @@ def main():
 # Comentar para validar con el oráculo
 # main()
 # pygame.quit()
+ """

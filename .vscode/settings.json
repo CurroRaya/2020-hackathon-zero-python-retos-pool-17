@@ -1,3 +1,9 @@
 {
-    "python.pythonPath": "G:\\Python\\python.exe"
+    "python.pythonPath": "G:\\Python\\python.exe",
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
 }

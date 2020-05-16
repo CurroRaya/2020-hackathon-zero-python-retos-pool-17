@@ -3,11 +3,12 @@
 import random
 import string
 
-def RandomPasswordGenerator(passLen=10):
-    #
-    #
-    
-    #
-    #
+chars = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
 
-    return ""
+def RandomPasswordGenerator(passLen=10):
+    password = ''
+
+    for p in range(passLen):
+        password += random.choice(chars)
+
+    print (password)

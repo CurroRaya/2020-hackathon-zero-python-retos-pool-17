@@ -7,6 +7,9 @@ options = ["Piedra", "Papel", "Tijeras"]
 #'Ganaste!'
 #'Perdiste!'
 def quienGana(player, ai):
+    player = player.lower()
+    ai = ai.lower()
+
     if player == ai:
         return "Empate!"
     elif player == "piedra":
@@ -36,18 +39,9 @@ def Game():
     #
 
     player = input("Selecciona Piedra, Papel, Tijeras -> ")
-    player = player.lower()
 
     ai = options[randint(0, 2)]
-    ai = ai.lower()
-
-    print(player)
-    print(ai)
     
     winner = quienGana(player, ai)
 
     print(winner)
-
-
-Game()
-

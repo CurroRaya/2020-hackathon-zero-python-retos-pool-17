@@ -1,4 +1,4 @@
-import logging
+""" import logging
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
@@ -58,3 +58,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+ """
