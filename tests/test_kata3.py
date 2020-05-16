@@ -1,4 +1,4 @@
-""" import pytest
+import pytest
 
 from kata3.bot import start, help, mayus, alreves
 
@@ -33,4 +33,4 @@ def test_command_alreves():
     update = Update()
     update.message.text = 'hola'
 
-    assert(alreves(update, '') == 'aloh') """
+    assert(alreves(update, '') == 'aloh')
