@@ -1,4 +1,4 @@
-""" import pytest
+import pytest
 
 from kata4.snake import Game, Snake
 
@@ -183,4 +183,3 @@ def test_direction_snake_RIGHT():
 
     assert(snake.direction == "RIGHT")
     assert(snake.position[0] == (position_o[0] + 10))
- """
